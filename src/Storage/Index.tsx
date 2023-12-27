@@ -2,7 +2,6 @@
 import React, { createContext } from "react";
 import { Storage } from "./Storage";
 
-
 export const StorageContext = createContext(new Storage());
 
 export function StorageProvider(props: {children: React.ReactNode}) {

@@ -1,6 +1,6 @@
 "use client"
 
-import { StorageContext } from '@/storage/Index';
+import { StorageContext } from '@/Storage/Index';
 import { observer } from 'mobx-react';
 import React, { useState } from 'react'
 import { Menu } from './Menu/Menu';
