@@ -13,4 +13,4 @@ export class Storage {
     setSelectedMenuOption(selectedMenuOption: MenuOption) {
         this.selectedMenuOption = selectedMenuOption;
     }
-}
+

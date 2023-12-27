@@ -8,6 +8,7 @@ import { Storage } from "@/Storage/Storage";
 import { StorageContext } from "@/Storage/Index";
 import { observer } from 'mobx-react';
 
+
 const MENU_OPTIONS = [
   {
     id: 1,
@@ -62,7 +63,6 @@ const MENU_OPTIONS = [
 
 export const Menu = observer(() => {
   const storage = React.useContext(StorageContext);
-  
   return (
     <div>
       {MENU_OPTIONS.map((option) => {
