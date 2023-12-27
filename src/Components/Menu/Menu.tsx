@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const MenuLeft = () => {
+export const Menu = () => {
   return (
     <div>Menu</div>
   )

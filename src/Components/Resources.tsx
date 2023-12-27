@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ResourcesLeft = () => {
+const Resources = () => {
   return (
-    <div>ResourcesLeft</div>
+    <div>Resources</div>
   )
 }
 
-export default ResourcesLeft
+export default Resources
